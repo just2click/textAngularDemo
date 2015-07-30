@@ -1,0 +1,17 @@
+{
+  "name": "Squire Sampler",
+  "version": "0.0.1",
+  "authors": [
+    "just2click <just2click@github.com>"
+  ],
+  "description": "Sampler for Squire RTE",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/vendor/bower",
+    "test",
+    "tests"
+  ]
+}

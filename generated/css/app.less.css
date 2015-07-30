@@ -1,0 +1,63 @@
+.logo-image {
+  height: 32px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+button {
+  margin-bottom: 0px !important;
+}
+.navbar-brand img .logo-image {
+  height: 35px;
+}
+.preview-text-container {
+  margin-top: 20px;
+  width: 545px;
+  position: relative;
+}
+.preview-text-container .btn-toolbar {
+  background: #eee;
+  border: 1px solid #acabab;
+  border-radius: 3px;
+  margin: 0px;
+}
+.preview-text-container .btn-group {
+  margin: 2px 5px;
+}
+.preview-text-container .form-control {
+  width: 100%;
+  resize: vertical;
+  overflow-y: scroll;
+  background-color: white;
+  border-collapse: separate;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  box-sizing: content-box;
+  box-shadow: rgba(0, 0, 0, 0.07) 0 1px 1px 0 inset;
+  border-radius: 3px;
+  outline: none;
+}
+.preview-text-container .focussed {
+  outline: none ;
+}
+.preview-text-container .ta-root.focussed > .ta-scroll-window.form-control {
+  border-color: #cccccc;
+  outline: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.preview-text-container .link {
+  color: #629cc8;
+  text-decoration: none;
+}
+.preview-text-container textarea {
+  width: 100%;
+}
+.preview-text-container .dropdown-menu {
+  min-width: 0px;
+}
